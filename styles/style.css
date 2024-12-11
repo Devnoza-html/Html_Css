@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 14px 101px 15px 99px;
+    display: flex;
+    flex-direction: row;
+    gap: 141px;
+    margin-bottom: 56px;
+}
+
+button {
+    font-family: "roboto", sans-serif;
+}
+
+.mistGardens {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+
+.logo {
+    width: 59px;
+}
+
+.headerAndParagraph {
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-right: 141px;
+}
+
+.mist {
+    font-family: "roboto", sans-serif;
+    font-size: 23px;
+    letter-spacing: 2.3px;
+    font-weight: 500;
+    color: #343D33;
+}
+
+.museum {
+    font-size: 15px;
+    font-family: "roboto", sans-serif;
+    font-style: italic;
+    letter-spacing: 0.15px;
+    color: #333333;
+}
+
+#navigation {
+    width: 1006px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "roboto", sans-serif;
+    letter-spacing: 0.15px;
+    color: #333333;
+    gap: 40px;
+}
+
+.membership {
+    border: 2px solid #475F45;
+    padding: 15px 30px;
+    background-color: white;
+    color: #475F45;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    margin-bottom: 115px;
+}
+
+#headerText {
+    width: 528px;
+}
+
+h1 {
+    font-family: "libre baskerville";
+    font-size: 57px;
+    font-weight: 400;
+    line-height: 110%;
+    color: #343D33;
+    margin-bottom: 12px;
+}
+
+#lorem {
+    font-family: "libre baskerville";
+    font-size: 25px;
+    font-weight: 300;
+    color: #414840;
+    margin-bottom: 24px;
+}
+
+#door {
+    border: 4px solid #AEB1AD;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    padding: 6px;
+}
+
+#tickets {
+    padding: 20px 40px;
+    font-size: 15px;
+    font-weight: 300;
+    background-color: #475F45;
+    border: none;
+    color: white;
+    font-weight: 700;
+    margin-right: 12px;
+}
+
+#learnMore {
+    padding: 18px 38px;
+    font-size: 15px;
+    font-weight: 300;
+    border: 2px solid #475F45;
+    color: #475F45;
+    font-weight: 700;
+    background-color: white;
+}
+
+#greenBackground {
+    background-image: url(../images/backgroundimg.png);
+}
+
+#plant {
+    width: 534px;
+    position: absolute;
+}
+
+#plantDiv {
+    position: absolute;
+    width: 534px;
+    margin-left: 1365px;
+    margin-top: 300px;
+}
+
+#picAndHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 96px;
+}
+
+#headerInGreen {
+    width: 417px;
+    color: white;
+}
+
+.discover {
+    font-family: "Libre Baskerville";
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 110%;
+    margin-bottom: 12px;
+}
+
+#ipsum {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+#learn {
+    padding: 18px 38px;
+    font-size: 15px;
+    font-weight: 300;
+    border: 2px solid white;
+    color: white;
+    font-weight: 700;
+    background-color: #343D33;
+}
+
+#sitting {
+    display: block;
+    width: 1206px;
+    margin: 0 auto;
+    padding-bottom: 96px;
+}
+
+#plantTwo {
+    width: 480px;
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 1200px;
+}
+
+#newsHeader {
+    margin-top: 96px;
+    margin-left: 100px;
+    margin-bottom: 52px;
+}
+
+#news {
+    font-family: "Libre Baskerville";
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 27px;
+}
+
+#line {
+    display: inline-block;
+    width: 131px;
+    height: 2px;
+    background-color: #475F45;
+    margin-bottom: 4px;
+    margin-right: 20px;
+}
+
+#view {
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2.1px;
+}
+
+#arrow-right {
+    vertical-align: middle;
+    margin-left: 12px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-bottom: 96px;
+}
+
+#imgAndText {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#garden {
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+#plants {
+    font-family: "Libre Baskerville";
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #475F45;
+}
+
+#dolor {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    width: 500px;
+    color: #414840;
+}
+
+.date {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    color: #343D33;
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.tomatoesAndText {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.picture {
+    width: 236px;
+    height: 190px;
+    margin-right: 20px;
+}
+
+.lushHeaders {
+    font-family: "Libre Baskerville";
+    font-size: 23px;
+    font-weight: 700;
+    color: #475F45;
+    margin-bottom: 12px;
+}
+
+.lorem {
+    font-family: Roboto;
+    width: 354px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #414840;
+    margin-bottom: 12px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.divider {
+    width: 630px;
+    height: 2px;
+    margin: 20px 0 20px 0;
+    background-color: #C4C4C4;
+}
+
+.footer {
+    background-color: #414840;
+    padding: 70px;
+    padding-top: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+#mistGardens {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+
+#logo {
+    fill: white;
+}
+
+#headerAndParagraph {
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-right: 141px;
+}
+
+#mist {
+    font-family: "roboto", sans-serif;
+    font-size: 23px;
+    letter-spacing: 2.3px;
+    font-weight: 500;
+    color: white;
+}
+
+#museum {
+    font-size: 15px;
+    font-family: "roboto", sans-serif;
+    font-style: italic;
+    letter-spacing: 0.15px;
+    color: #fff;
+    margin-bottom: 28px;
+}
+
+#elit {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    width: 269px;
+    line-height: 150%;
+}
+
+#siteHeader, #connectHeader {
+    text-align: center;
+    font-family: "Libre Baskerville";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 110%;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-left: 48px;
+}
+
+.tab {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+#socials {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-left: 122px;
+}
+
+#copyright {
+    background-color: #343D33;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copy {
+    color: white;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+}
